@@ -1,0 +1,79 @@
+body{
+    margin:0;
+    padding:0;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(25,0,36);
+    background: linear-gradient(120deg, rgba(25,0,36,1) 0%, rgba(44,44,99,1) 13%, rgba(110,66,172,1) 100%);
+}
+
+.parent-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.login-container{
+    width:350px;
+    flex-direction: column;
+    padding:20px;
+    border:1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px gba(0,0,0,0.1);
+    background-color: white;
+}
+
+h1.login{
+    font-weight:bold;
+    text-align: center;
+    padding: 0 0 20px 0;
+    text-shadow: 2px 2px 2px #999;
+    border-bottom: 1px solid silver;
+    color: black;
+}
+
+.input-container > input{
+    width:100%;
+    padding:10px;
+    margin-bottom: 15px;
+    border:none;
+    border-bottom: 1px solid grey ;
+    align-self: center;
+    outline:none;
+    background: none;
+    
+}
+
+.input-container{
+    padding: 0 40px 0 20px;
+    box-sizing: border-box;  
+}
+.btn{
+    margin:10px 0 20px 110px ;
+    border-radius:10px;
+    border:none;
+    background-color: rgb(181, 176, 236);
+    padding: 8px;
+    cursor:pointer;
+    width:40%;
+}
+
+.login-popup{
+    color: black;
+    position: fixed;
+    top:70%;
+    left:50%;
+    transform:translate(-50%,50%) ;
+    background-color: #fff;
+    padding:20px;
+    border:1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.ok-btn{
+    margin-left:40px;
+    background-color: rgb(181, 176, 236);
+    border: none;
+    border-radius: 5px;
+}

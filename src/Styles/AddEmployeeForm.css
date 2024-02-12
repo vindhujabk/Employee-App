@@ -1,0 +1,43 @@
+body{
+    padding:0;
+    margin:0;
+}
+
+.form-container{
+    width:70vw;
+    background-color: rgba(75, 45, 145, 0.3);
+    margin:50px auto;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.form-container h2{
+    margin-bottom: 50px;
+    font-size: 2.2rem;
+}
+
+/* .add-employee-form{
+    display:flex;
+    flex-direction:column;
+} */
+
+
+
+.add-employee-form input{
+    width:95%;
+    margin-bottom:10px;
+    border-radius: 3px;
+    border:none;
+    height: 30px;
+}
+
+.add-employee-form button{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border-radius: 3px;
+    border: none;
+    width:60px;
+    height:25px;
+
+}
